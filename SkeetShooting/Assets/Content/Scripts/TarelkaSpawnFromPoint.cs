@@ -11,8 +11,9 @@ public class TarelkaSpawnFromPoint : MonoBehaviour
     [SerializeField] 
     private GameObject _tarelkaObject = null;
     
+    
 
-    public void Shoot()
+    public void Launch()
     {
 
             int spawn = Random.Range(0, _spawnPoints.Length);
@@ -20,6 +21,7 @@ public class TarelkaSpawnFromPoint : MonoBehaviour
             newTarelka.transform.parent = _spawnPoints[spawn].transform;
             
             Destroy(newTarelka, 5f);
-        
+            ObjectsManager.Instance._launchButton.SetActive(false);
     }
+
 }

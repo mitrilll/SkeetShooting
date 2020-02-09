@@ -9,10 +9,12 @@
         <e p="Content" t="Include">
           <e p="Scripts" t="Include">
             <e p="AddForceToTarelka.cs" t="Include" />
+            <e p="AimBar.cs" t="Include" />
             <e p="BackCameraMove.cs" t="Include" />
-            <e p="ButtonTarelkasFire.cs" t="Include" />
             <e p="CameraFollow.cs" t="Include" />
             <e p="CamraController.cs" t="Include" />
+            <e p="ObjectsManager.cs" t="Include" />
+            <e p="RayCastFromGun2.cs" t="Include" />
             <e p="TarelkaSpawnFromPoint.cs" t="Include" />
           </e>
         </e>
